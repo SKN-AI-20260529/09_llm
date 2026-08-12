@@ -50,7 +50,7 @@ EMBEDDING_MODEL_NAME = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-sma
 EMBEDDING_DIMENSIONS = 1536
 
 # 파인콘 인덱스 이름
-PINECONE_INDEX_NAME = os.getenv("SOMMELIER_PINECONE_INDEX", "winemag_review-data").strip() or 'winemag_review-data'
+PINECONE_INDEX_NAME = os.getenv("SOMMELIER_PINECONE_INDEX", "winemag-review-data").strip() or 'winemag_review-data'
 
 # 인덱스 내 데이터 기본 그룹명
 PINECONE_NAMESPACE = ""
